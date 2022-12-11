@@ -37,10 +37,9 @@
             <header></header>
             <sidebar></sidebar>
             <div class="content-body">
-                <!-- row -->
                 <div class="container-fluid">
                     <breadcrumb></breadcrumb>
-                    <router-view></router-view>
+                    <index></index>
                 </div>
             </div>
         </div>
