@@ -1,7 +1,7 @@
 <template>
     
     <div class="nav-header">
-        <a href="{{ URL::to('') }}" class="brand-logo">
+        <a :v-href="currentUrl" class="brand-logo">
         <img class="logo-abbr" src="https://i.postimg.cc/pdzXBW35/logo-icon.png" alt="">
         <img class="logo-compact" src="https://i.imgur.com/Bnm4iX1.png" alt="">
         <img class="brand-title" src="https://i.imgur.com/Bnm4iX1.png" alt="">
@@ -18,6 +18,14 @@
     export default {
         mounted() {
             console.log('nav-header loaded.')
-        }
+        },
+        data: function() {
+            return {
+            currentUrl: "",
+            };
+        },
+        created() {
+            this.currentUrl = window.location.href;
+        },
     }
 </script>
