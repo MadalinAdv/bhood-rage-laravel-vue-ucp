@@ -28406,56 +28406,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function () {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "nav-header" }, [
-      _c(
-        "a",
-        {
-          staticClass: "brand-logo",
-          attrs: { href: "https://ragepanel.b-hood.ro" },
-        },
-        [
-          _c("img", {
-            staticClass: "logo-abbr",
-            attrs: {
-              src: "https://i.postimg.cc/pdzXBW35/logo-icon.png",
-              alt: "",
-            },
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "logo-compact",
-            attrs: { src: "https://i.imgur.com/Bnm4iX1.png", alt: "" },
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "brand-title",
-            attrs: { src: "https://i.imgur.com/Bnm4iX1.png", alt: "" },
-          }),
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "nav-control" }, [
-        _c("div", { staticClass: "hamburger" }, [
-          _c("span", { staticClass: "line" }),
-          _c("span", { staticClass: "line" }),
-          _c("span", { staticClass: "line" }),
-        ]),
-      ]),
-    ])
-  },
-]
-render._withStripped = true
+var render = function () {}
+var staticRenderFns = []
 
 
 

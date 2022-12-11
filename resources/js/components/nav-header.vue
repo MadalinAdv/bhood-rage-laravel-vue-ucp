@@ -1,7 +1,7 @@
 <template>
     
     <div class="nav-header">
-        <a href="https://ragepanel.b-hood.ro" class="brand-logo">
+        <a href="{{ URL::to('') }}" class="brand-logo">
         <img class="logo-abbr" src="https://i.postimg.cc/pdzXBW35/logo-icon.png" alt="">
         <img class="logo-compact" src="https://i.imgur.com/Bnm4iX1.png" alt="">
         <img class="brand-title" src="https://i.imgur.com/Bnm4iX1.png" alt="">
