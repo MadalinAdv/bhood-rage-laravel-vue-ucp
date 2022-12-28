@@ -1,11 +1,17 @@
+import index from './components/index';
+import online from './components/online';
 
-let views = {};
+export default{
+	mode: 'history',
 
-const files = require.context('./views/', false, /\.vue$/i, 'lazy');
-files.keys().map(key => views[key.split('/').pop().split('.')[0]] = () => import(`./views/${key.split('/').pop().split('.')[0]}.vue`));
-
-const routes = [
-	{ path: '/', name: 'home', component: views.Index, meta: { name: 'Home' } },
-	{ path: "*", component: views.PageNotFound },
-];
-export default routes;
+	routes: [
+		{
+			path: '/',
+			component: index
+		},
+		{
+			path: '/online',
+			component: online
+		}
+	]
+}
